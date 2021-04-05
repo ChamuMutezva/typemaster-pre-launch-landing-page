@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <nav>
+          <div class="logo__container">
+            <a href="/" aria-label="well come to typemaster">
+              <img src="./assets/shared/logo.svg" alt="" srcset="" />
+            </a>
+          </div>
+          <div class="order">
+            <button class="order__btn main__btn">Pre-order now</button>
+          </div>
+        </nav>
+        <!--hero section-->
+        <div class="hero">
+          <div class="hero__content">
+            <h1 class="hero__content__title">Typemaster keyboard</h1>
+            <p class="hero__content__description">
+              Improve your productivity and gaming without breaking the bank.
+              Upgrade to a high quality mechanical typing experience.
+            </p>
+            <div>
+              <button class="hero__content__btn main__btn">
+                Pre-order now
+              </button>
+              <span>Release on 5/27</span>
+            </div>
+          </div>
+          <!--hero image-->
+          <div class="hero__img">
+            <picture>
+              <source
+                media="(max-width:680px)"
+                srcset="./assets/mobile/image-keyboard.jpg"
+                sizes=""
+              />
+              <source
+                media="(min-width:681px )"
+                srcset="./assets/tablet/image-keyboard.jpg"
+                sizes=""
+              />
+              <source
+                media="(min-width:980px )"
+                srcset="./assets/desktop/image-keyboard.jpg"
+                sizes=""
+              />
+              <img
+                src="./assets/mobile/image-keyboard.jpg"
+                alt=""
+                sizes=""
+                srcset=""
+              />
+            </picture>
+          </div>
+        </div>
+      </header>
+      <!--main section-->
+      <main>
+        <!--primary section-->
+        <div class="primary">
+          <div class="primary__img1">
+            <picture>
+              <source
+                media="(max-width: 680px )"
+                srcset="./assets/mobile/image-phone-and-keyboard.jpg"
+                sizes=""
+              />
+              <source
+                media="(min-width:681px )"
+                srcset="./assets/tablet/image-phone-and-keyboard.jpg"
+                sizes=""
+              />
+              <source
+                media="(min-width:980px )"
+                srcset="./assets/desktop/image-phone-and-keyboard.jpg"
+                sizes=""
+              />
+              <img src="./assets/mobile/image-phone-and-keyboard.jpg" alt="" />
+            </picture>
+          </div>
+          <div class="primary__img2">
+            <picture>
+              <source
+                media="(max-width: 680px )"
+                srcset="./assets/mobile/image-glass-and-keyboard.jpg"
+                sizes=""
+              />
+              <source
+                media="(min-width:681px )"
+                srcset="./assets/tablet/image-glass-and-keyboard.jpg"
+                sizes=""
+              />
+              <source
+                media="(min-width:980px )"
+                srcset="./assets/desktop/image-glass-and-keyboard.jpg"
+                sizes=""
+              />
+              <img src="./assets/mobile/image-glass-and-keyboard.jpg" alt="" />
+            </picture>
+          </div>
+          <div class="primary__content">
+            <h2 class="primary__content__title">
+              Mechanical wireless keyboard
+            </h2>
+            <p class="primary__content__description">
+              The Typemaster keyboard boasts top-notch build and practical
+              design. It offers a wide variety of switches and keycaps, along
+              with reliable wireless connectivity.
+            </p>
+          </div>
+        </div>
+
+        <!--secondary section -->
+        <div class="secondary">
+          <div class="cards">
+            <!--card one-->
+            <div class="card">
+              <img
+                class="card__img"
+                src="./assets/shared/icon-compatible.svg"
+                alt=""
+              />
+              <h3 class="card__title">Highly compatible</h3>
+              <p class="card__description">
+                Easy to use and works well with all major computer brands,
+                gaming consoles and mobile devices. Plug & play, no installation
+                or driver needed.
+              </p>
+            </div>
+            <!--card two-->
+            <div class="card">
+              <img
+                class="card__img"
+                src="./assets/shared/icon-bluetooth.svg"
+                alt=""
+              />
+              <h3 class="card__title">Wireless with bluetooth</h3>
+              <p class="card__description">
+                Powerful 2.4G RF technology allows you to connect the cordless
+                keyboard from up to 30ft away. Simply plug the unifying receiver
+                into your computer.
+              </p>
+            </div>
+
+            <!--card three-->
+            <div class="card">
+              <img
+                class="card__img"
+                src="./assets/shared/icon-battery.svg"
+                alt=""
+              />
+              <h3 class="card__title">High capacity battery</h3>
+              <p class="card__description">
+                Equipped with a long-lasting built-in battery, you’ll never have
+                to spend a dime on replaceable ones.  Enjoy 40 hours of usage
+                time between charges.
+              </p>
+            </div>
+
+            <!--card four-->
+            <div class="card">
+              <img
+                class="card__img"
+                src="./assets/shared/icon-light.svg"
+                alt=""
+              />
+              <h3 class="card__title">RGB backlit modes</h3>
+              <p class="card__description">
+                Choose from 4 backlight brightness levels and adjustable
+                breathing speed. Each key glows intensely in the dark and helps
+                you type in low light conditions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>Typemaster 2021 | All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
