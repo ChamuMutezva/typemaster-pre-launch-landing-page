@@ -197,9 +197,25 @@ header .main__btn {
   text-align: center;
 }
 @media screen and (min-width: 680px) {
+  .secondary {
+    margin-left: 39px;
+    margin-right: 98px;
+  }
   .secondary .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .secondary .card {
+    align-items: baseline;
+  }
+  .secondary .card__title {
+    margin: 0px;
+    text-align: left;
+  }
+  .secondary .card__description {
+    padding: 0;
+    text-align: left;
   }
 }
 
