@@ -37,4 +37,11 @@
         padding: 0 24px;
         text-align: center;
     }
+
+    @include mQ(680px) {
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }

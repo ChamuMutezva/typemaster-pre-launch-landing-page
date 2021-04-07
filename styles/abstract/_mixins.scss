@@ -19,3 +19,10 @@
     color: $para-tx-color;
     margin-top: 35px;
 }
+
+
+@mixin mQ($arg) {
+    @media screen and (min-width: $arg) {
+        @content;
+    }
+}
