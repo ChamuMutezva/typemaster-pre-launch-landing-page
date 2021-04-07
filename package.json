@@ -1,0 +1,24 @@
+{
+  "name": "typemaster-pre-launch-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Typemaster pre-launch landing page\r  coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChamuMutezva/typemaster-pre-launch-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChamuMutezva/typemaster-pre-launch-landing-page/issues"
+  },
+  "homepage": "https://github.com/ChamuMutezva/typemaster-pre-launch-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}

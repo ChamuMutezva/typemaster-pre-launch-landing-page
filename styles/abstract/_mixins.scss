@@ -4,3 +4,18 @@
     //Default font size on html element is 100%, equivalent to 16px;
     @return #{$remSize}rem;
 }
+@mixin mainBtn {
+	font-size: calculateRem(16);
+	padding: .6rem 1.1rem;
+	font-weight: 600;
+	line-height: 26px;
+	background-color: #e8eff2;
+	border: 1px solid transparent;
+	border-radius: 8px;
+}
+@mixin contentText {
+    font-size: calculateRem(16);
+    line-height: 26px;
+    color: $para-tx-color;
+    margin-top: 35px;
+}

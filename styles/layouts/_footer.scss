@@ -1,0 +1,8 @@
+.footer__content {
+    @include contentText;
+	text-align: center;
+    padding-bottom: 24px;
+    span {
+        font-weight: 700;
+    }
+}

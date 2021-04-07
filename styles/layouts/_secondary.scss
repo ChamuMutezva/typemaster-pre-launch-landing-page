@@ -1,0 +1,40 @@
+//-------------cards section ---------//
+
+.secondary {
+    margin-top: 117px;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        margin-bottom: 45px;
+    }
+
+    .card__image__holder {
+        background-color: $orange-bg;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .card__title {
+        font-size: calculateRem(24);
+        line-height: 28px;
+        font-weight: 900;
+        color: #162542;
+        margin: 0 100px;
+        text-align: center;
+    }
+
+    .card__description {
+        @include contentText;
+        margin-top: 0;
+        padding: 0 24px;
+        text-align: center;
+    }
+}
