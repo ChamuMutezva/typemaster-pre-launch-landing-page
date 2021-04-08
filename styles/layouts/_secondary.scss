@@ -3,6 +3,14 @@
 .secondary {
     margin-top: 117px;
 
+    .cards {
+        display: grid;
+       // grid-template-columns: 1fr 1fr;
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+
     .card {
         display: flex;
         flex-direction: column;
@@ -42,12 +50,7 @@
     @include mQ(680px) {
         margin-left: 39px;
         margin-right: 98px;
-
-        .cards {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 50px;
-        }
+        margin-top: 134px;
 
         .card {
             align-items: baseline;
@@ -62,5 +65,9 @@
             padding: 0;
             text-align: left;
         }
+    }
+
+    @include mQ(1280px) {
+        margin: 134px 165px 0;
     }
 }

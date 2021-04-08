@@ -7,7 +7,7 @@ header {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .main__btn {
         @include mainBtn;
     }
@@ -17,6 +17,14 @@ header {
 
         nav {
             padding: 0 39px;
+        }
+    }
+
+    @include mQ(1280px) {
+        padding-top: 55px;
+
+        nav {
+            padding: 0 165px;
         }
     }
 }
@@ -70,4 +78,30 @@ header {
         justify-content: space-between;
         margin-top: 65px;
     }
+
+    @include mQ(1280px) {
+        padding: 0 165px;
+        gap: 140px;
+
+        .hero__content {
+            padding: 0;  
+            align-self: center;         
+        }
+
+        .hero__content__title {
+            font-size: calculateRem(56);
+            line-height:  56px;
+        }
+
+        .hero__content__description {
+            font-size: calculateRem(18);
+           
+        }
+
+        .hero__content__primary {           
+            gap: 60px;
+            justify-content: flex-start;
+        }
+    }
+
 }
