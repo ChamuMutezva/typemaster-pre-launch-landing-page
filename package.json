@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "build": "npm run parcel && npm run sass",
-    "sass": "sass",
+    "sass": "sass styles/style.scss:styles/style.css",
     "parcel": "parcel build index.html",
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
