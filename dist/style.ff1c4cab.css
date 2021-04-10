@@ -27,8 +27,14 @@ header .main__btn {
   font-weight: 600;
   line-height: 26px;
   background-color: #e8eff2;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 8px;
+}
+header .main__btn:hover, header .main__btn:focus {
+  cursor: pointer;
+  background-color: #162542;
+  color: #ffffff;
+  border: 2px solid #E8EFF2;
 }
 @media screen and (min-width: 680px) {
   header {
@@ -73,6 +79,17 @@ header .main__btn {
   background-color: #F16718;
   color: #ffffff;
 }
+.hero .hero__content__btn:hover {
+  background-color: #F16718;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.hero .hero__content__btn:focus {
+  background-color: #F16718;
+  color: #ffffff;
+  opacity: 0.6;
+  border: 2px solid #162542;
+}
 .hero .hero__content__span {
   display: inline-block;
   font-weight: 600;
@@ -96,6 +113,20 @@ header .main__btn {
   .hero {
     padding: 0 165px;
     gap: 140px;
+    margin-top: 28px;
+  }
+  .hero .hero__img {
+    position: relative;
+  }
+  .hero .hero__img::before {
+    position: absolute;
+    content: "";
+    width: 135px;
+    height: 240px;
+    background-color: #E8EFF2;
+    top: 68px;
+    right: -185px;
+    border-radius: 20px 0 0 20px;
   }
   .hero .hero__content {
     padding: 0;
@@ -190,7 +221,19 @@ header .main__btn {
 @media screen and (min-width: 1280px) {
   .primary {
     grid-template-columns: 1fr 2fr 1fr;
-    margin: 48px 145px 48px 165px;
+    margin: 64px 145px 48px 165px;
+    min-height: 480px;
+    position: relative;
+  }
+  .primary:before {
+    position: absolute;
+    content: "";
+    height: 236px;
+    width: 135px;
+    background-color: #E8EFF2;
+    bottom: 0;
+    left: -165px;
+    border-radius: 0 20px 20px 0;
   }
   .primary .primary__img1 {
     margin-left: 0;

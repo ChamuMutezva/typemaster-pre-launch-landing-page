@@ -10,6 +10,14 @@ header {
 
     .main__btn {
         @include mainBtn;
+
+        &:hover,  &:focus  {
+            cursor: pointer;
+            background-color: #162542;
+            color: $white-tx;
+            border: 2px solid #E8EFF2;
+        }
+      
     }
 
     @include mQ(680px) {
@@ -57,6 +65,19 @@ header {
     .hero__content__btn {
         background-color: $orange-bg;
         color: $white-tx;
+
+        &:hover {
+            background-color: $orange-bg;
+            color: $white-tx;
+            opacity: 0.6;
+        }
+
+        &:focus {
+            background-color: $orange-bg;
+            color: $white-tx;
+            opacity: 0.6;
+            border: 2px solid #162542 ;
+        }
     }
 
     .hero__content__span {
@@ -82,23 +103,39 @@ header {
     @include mQ(1280px) {
         padding: 0 165px;
         gap: 140px;
+        margin-top: 28px;
+
+        .hero__img {
+            position: relative;
+        }
+
+        .hero__img::before {
+            position: absolute;
+            content: "";
+            width: 135px;
+            height: 240px;
+            background-color: #E8EFF2;
+            top: 68px;
+            right: -185px;
+            border-radius: 20px 0 0 20px;
+        }
 
         .hero__content {
-            padding: 0;  
-            align-self: center;         
+            padding: 0;
+            align-self: center;
         }
 
         .hero__content__title {
             font-size: calculateRem(56);
-            line-height:  56px;
+            line-height: 56px;
         }
 
         .hero__content__description {
             font-size: calculateRem(18);
-           
+
         }
 
-        .hero__content__primary {           
+        .hero__content__primary {
             gap: 60px;
             justify-content: flex-start;
         }
