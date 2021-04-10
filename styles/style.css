@@ -333,4 +333,9 @@ header .main__btn:hover, header .main__btn:focus {
   font-weight: 700;
 }
 
+.wrapper {
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=style.css.map */

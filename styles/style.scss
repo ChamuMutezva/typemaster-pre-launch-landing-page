@@ -4,5 +4,10 @@
 @import "./abstract/mixins";
 @import "./layouts/header";
 @import "./layouts/main";
-@import "./layouts/footer"
+@import "./layouts/footer";
 
+//max width of container
+.wrapper {
+    max-width: 1480px;
+    margin: 0 auto;
+}
