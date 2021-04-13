@@ -39,7 +39,8 @@
         line-height: 36px;
         font-weight: 900;
         text-align: center;
-        color: #162542;
+        color: $heading-tx-color;
+        text-transform: uppercase;
     }
 
     .primary__content__description {

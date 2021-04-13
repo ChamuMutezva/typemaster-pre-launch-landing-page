@@ -6,12 +6,13 @@
 }
 @mixin mainBtn {
 	font-size: calculateRem(16);
-	padding: .6rem 1.1rem;
+	padding: .5rem;
 	font-weight: 600;
 	line-height: 26px;
 	background-color: #e8eff2;
 	border: 2px solid transparent;
 	border-radius: 8px;
+    text-transform: uppercase;
 }
 @mixin contentText {
     font-size: calculateRem(16);

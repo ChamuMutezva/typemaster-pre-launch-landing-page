@@ -35,9 +35,10 @@
         font-size: calculateRem(24);
         line-height: 28px;
         font-weight: 900;
-        color: #162542;
+        color: $heading-tx-color;
         margin: 0 100px;
         text-align: center;
+        text-transform: uppercase;
     }
 
     .card__description {

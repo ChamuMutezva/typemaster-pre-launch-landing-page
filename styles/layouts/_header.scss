@@ -48,6 +48,8 @@ header {
         font-size: calculateRem(48);
         line-height: 48px;
         font-weight: 900;
+        text-transform: uppercase;
+        color: $heading-tx-color;
     }
 
     .hero__content__description {

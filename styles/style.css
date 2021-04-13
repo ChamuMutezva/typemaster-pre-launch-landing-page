@@ -23,12 +23,13 @@ header nav {
 }
 header .main__btn {
   font-size: 1rem;
-  padding: 0.6rem 1.1rem;
+  padding: 0.5rem;
   font-weight: 600;
   line-height: 26px;
   background-color: #e8eff2;
   border: 2px solid transparent;
   border-radius: 8px;
+  text-transform: uppercase;
 }
 header .main__btn:hover, header .main__btn:focus {
   cursor: pointer;
@@ -61,6 +62,8 @@ header .main__btn:hover, header .main__btn:focus {
   font-size: 3rem;
   line-height: 48px;
   font-weight: 900;
+  text-transform: uppercase;
+  color: #162542;
 }
 .hero .hero__content__description {
   font-size: 1rem;
@@ -180,6 +183,7 @@ header .main__btn:hover, header .main__btn:focus {
   font-weight: 900;
   text-align: center;
   color: #162542;
+  text-transform: uppercase;
 }
 .primary .primary__content__description {
   font-size: 1rem;
@@ -287,6 +291,7 @@ header .main__btn:hover, header .main__btn:focus {
   color: #162542;
   margin: 0 100px;
   text-align: center;
+  text-transform: uppercase;
 }
 .secondary .card__description {
   font-size: 1rem;
