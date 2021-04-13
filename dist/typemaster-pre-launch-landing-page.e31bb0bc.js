@@ -124,9 +124,9 @@ console.log(image__list);
 observer = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {
     if (entry.intersectionRatio > 0) {
-      entry.target.classList.add('.slideInLeft');
+      entry.target.classList.add('slideInLeft');
     } else {
-      entry.target.classList.remove('.slideInLeft');
+      entry.target.classList.remove('slideInLeft');
     }
   });
 });
@@ -161,7 +161,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58101" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50833" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

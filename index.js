@@ -4,9 +4,9 @@ console.log(image__list)
 observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.intersectionRatio > 0) {
-            entry.target.classList.add('.slideInLeft');
+            entry.target.classList.add('slideInLeft');
         } else {
-            entry.target.classList.remove('.slideInLeft');
+            entry.target.classList.remove('slideInLeft');
         }
     });    
 });
